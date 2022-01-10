@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bonilla_Miguel_2doParcial_Prueba_01">
         <activity
-            android:name=".MainActivity"
+            android:name=".MEBQ_androidfunwirhflags.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
