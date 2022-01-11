@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bonilla_Miguel_2doParcial_Prueba_01">
         <activity
+            android:name=".MEBQ_Activity_confirmacion"
+            android:exported="false" />
+        <activity
             android:name=".MEBQ_Activity_login"
             android:exported="false" />
         <activity
