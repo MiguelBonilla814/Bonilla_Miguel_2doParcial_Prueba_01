@@ -14,6 +14,7 @@ public class MEBQ_Activity_login extends AppCompatActivity {
 
     //Usuario = Miguel
     //Contraseña: 1234
+
     private EditText editText_usuario;
     private EditText editText_contrasenia;
     @Override
