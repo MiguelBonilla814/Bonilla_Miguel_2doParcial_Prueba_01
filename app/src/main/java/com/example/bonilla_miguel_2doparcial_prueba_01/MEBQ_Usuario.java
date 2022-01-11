@@ -2,8 +2,8 @@ package com.example.bonilla_miguel_2doparcial_prueba_01;
 
 public class MEBQ_Usuario {
     private int codigo;
-    private int usuario;
-    private int contrasenia;
+    private String usuario;
+    private String contrasenia;
 
     public int getCodigo() {
         return codigo;
@@ -13,19 +13,19 @@ public class MEBQ_Usuario {
         this.codigo = codigo;
     }
 
-    public int getUsuario() {
+    public String getUsuario() {
         return usuario;
     }
 
-    public void setUsuario(int usuario) {
+    public void setUsuario(String usuario) {
         this.usuario = usuario;
     }
 
-    public int getContrasenia() {
+    public String getContrasenia() {
         return contrasenia;
     }
 
-    public void setContrasenia(int contrasenia) {
+    public void setContrasenia(String contrasenia) {
         this.contrasenia = contrasenia;
     }
 }
