@@ -1,13 +1,7 @@
 package com.example.bonilla_miguel_2doparcial_prueba_01.MEBQ_eventhandlers;
 
-import android.content.SharedPreferences;
-import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
-import android.widget.Toast;
-
-import com.aperez.apps.androidfunwithflags.MainActivity;
 //import com.aperez.apps.androidfunwithflags.R;
 
-import java.util.Set;
 
 class PreferenceChangeListener {
  /*   private MainActivity mainActivity;

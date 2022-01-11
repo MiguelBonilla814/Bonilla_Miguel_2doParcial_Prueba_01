@@ -1,18 +1,17 @@
-package com.aperez.apps.androidfunwithflags;
+package com.example.bonilla_miguel_2doparcial_prueba_01.MEBQ_androidfunwirhflags;
 
 
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
-import android.support.v4.app.DialogFragment;
-import android.arch.lifecycle.ViewModelProviders;
+
 import android.os.Bundle;
 import android.util.Log;
 
-import com.aperez.apps.lifecyclehelpers.QuizViewModel;
+import com.example.bonilla_miguel_2doparcial_prueba_01.MEBQ_lifecyclehelpers.*;
 
-public class ResultsDialogFragment extends DialogFragment{
-
+class ResultsDialogFragment{
+/*
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,5 +43,5 @@ public class ResultsDialogFragment extends DialogFragment{
             }
         });
         return builder.create();
-    }
+    }*/
 }

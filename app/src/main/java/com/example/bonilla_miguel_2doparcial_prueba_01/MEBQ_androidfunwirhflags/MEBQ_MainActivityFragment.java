@@ -1,4 +1,4 @@
-package com.aperez.apps.androidfunwithflags;
+package com.example.bonilla_miguel_2doparcial_prueba_01.MEBQ_androidfunwirhflags;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -6,12 +6,10 @@ import java.security.SecureRandom;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
-import android.arch.lifecycle.ViewModelProviders;
 import android.content.res.AssetManager;
 import android.graphics.drawable.Drawable;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,17 +19,20 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
-import android.support.constraint.ConstraintLayout;
+
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 
-import com.aperez.apps.eventhandlers.GuessButtonListener;
-import com.aperez.apps.lifecyclehelpers.QuizViewModel;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.fragment.app.Fragment;
 
-public class MainActivityFragment extends Fragment {
+import com.example.bonilla_miguel_2doparcial_prueba_01.MEBQ_eventhandlers.*;
+import com.example.bonilla_miguel_2doparcial_prueba_01.MEBQ_lifecyclehelpers.*;
+
+class MainActivityFragment{
 
     private SecureRandom random;
     private Animation shakeAnimation;
@@ -40,9 +41,8 @@ public class MainActivityFragment extends Fragment {
     private ImageView flagImageView;
     private TableRow[] guessTableRows;
     private TextView answerTextView;
-    private QuizViewModel quizViewModel;
 
-    @Override
+    /*@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.quizViewModel = ViewModelProviders.of(getActivity()).get(QuizViewModel.class);
@@ -213,6 +213,6 @@ public class MainActivityFragment extends Fragment {
 
     public QuizViewModel getQuizViewModel() {
         return quizViewModel;
-    }
+    }*/
 }
 

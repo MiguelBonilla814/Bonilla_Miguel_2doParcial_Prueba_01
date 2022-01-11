@@ -1,12 +1,14 @@
-package com.aperez.apps.androidfunwithflags;
+package com.example.bonilla_miguel_2doparcial_prueba_01.MEBQ_androidfunwirhflags;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import android.widget.Toolbar;
 
-public class SettingsActivity extends AppCompatActivity{
+import androidx.appcompat.app.AppCompatActivity;
 
-    @Override
+
+class SettingsActivity{
+
+   /* @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
@@ -14,5 +16,5 @@ public class SettingsActivity extends AppCompatActivity{
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
-
+*/
 }

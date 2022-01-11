@@ -14,9 +14,6 @@
             android:exported="false" />
         <activity
             android:name=".MEBQ_Activity_login"
-            android:exported="false" />
-        <activity
-            android:name=".MEBQ_androidfunwirhflags.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

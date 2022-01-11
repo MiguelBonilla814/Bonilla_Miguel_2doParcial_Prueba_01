@@ -1,17 +1,11 @@
-package com.aperez.apps.androidfunwithflags;
+package com.example.bonilla_miguel_2doparcial_prueba_01.MEBQ_androidfunwirhflags;
 
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
-import android.support.annotation.Nullable;
 
 /**
  * A placeholder fragment containing a simple view.
  */
-public class SettingsActivityFragment extends PreferenceFragment {
+class SettingsActivityFragment{
 
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.preferences);
-    }
 }
