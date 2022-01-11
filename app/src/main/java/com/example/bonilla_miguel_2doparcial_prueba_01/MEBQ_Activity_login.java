@@ -15,11 +15,11 @@ public class MEBQ_Activity_login extends AppCompatActivity {
     }
 
     public void onClickInsertar(View view){
-        MEBQ_loginHelper clientesHelper = new MEBQ_loginHelper(this,
+        MEBQ_loginHelper loginHelper = new MEBQ_loginHelper(this,
                 "clientesDB", null, 1);
-        SQLiteDatabase sql = clientesHelper.getWritableDatabase();
+        SQLiteDatabase sql = loginHelper.getWritableDatabase();
 
-        String nombre = editText_Nombre.getText().toString();
+        String nombre = editText.getText().toString();
         String apellido = editText_Apellido.getText().toString();
         String correo = editText_Correo.getText().toString();
 
