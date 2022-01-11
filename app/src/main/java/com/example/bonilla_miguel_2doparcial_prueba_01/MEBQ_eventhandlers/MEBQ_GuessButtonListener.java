@@ -7,13 +7,13 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 import com.aperez.apps.androidfunwithflags.MainActivityFragment;
-import com.example.bonilla_miguel_2doparcial_prueba_01.MEBQ_androidfunwirhflags.R;
+//import com.example.bonilla_miguel_2doparcial_prueba_01.MEBQ_androidfunwirhflags.R;
 import com.aperez.apps.androidfunwithflags.ResultsDialogFragment;
 import com.example.bonilla_miguel_2doparcial_prueba_01.MEBQ_lifecyclehelpers.*;
 
 
-public class GuessButtonListener implements OnClickListener {
-    private MainActivityFragment mainActivityFragment;
+class GuessButtonListener{
+/*    private MainActivityFragment mainActivityFragment;
     private Handler handler;
 
     public GuessButtonListener(MainActivityFragment mainActivityFragment) {
@@ -61,5 +61,5 @@ public class GuessButtonListener implements OnClickListener {
             this.mainActivityFragment.incorrectAnswerAnimation();
             guessButton.setEnabled(false);
         }
-    }
+    }*/
 }

@@ -5,12 +5,12 @@ import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.widget.Toast;
 
 import com.aperez.apps.androidfunwithflags.MainActivity;
-import com.aperez.apps.androidfunwithflags.R;
+//import com.aperez.apps.androidfunwithflags.R;
 
 import java.util.Set;
 
-public class PreferenceChangeListener implements OnSharedPreferenceChangeListener {
-    private MainActivity mainActivity;
+class PreferenceChangeListener {
+ /*   private MainActivity mainActivity;
 
     public PreferenceChangeListener(MainActivity mainActivity) {
         this.mainActivity = mainActivity;
@@ -42,5 +42,5 @@ public class PreferenceChangeListener implements OnSharedPreferenceChangeListene
 
         Toast.makeText(this.mainActivity, R.string.restarting_quiz,
                 Toast.LENGTH_SHORT).show();
-    }
+    }*/
 }

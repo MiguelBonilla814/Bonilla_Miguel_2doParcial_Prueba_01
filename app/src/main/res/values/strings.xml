@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Bonilla_Miguel_2doParcial_Prueba_01</string>
+    <string name="hint_usuario">Ingrese usuario</string>
+    <string name="hint_password">Ingrese contraseña</string>
+    <string name="button_login">INGRESAR</string>
 </resources>
