@@ -1,8 +1,10 @@
 package com.example.bonilla_miguel_2doparcial_prueba_01.MEBQ_lifecyclehelpers;
 
-import android.app.
+
 import android.content.res.AssetManager;
 import android.util.Log;
+
+import androidx.lifecycle.ViewModel;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -10,7 +12,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 
-public class QuizViewModel extends ViewModel {
+class QuizViewModel extends ViewModel {
     private static final String TAG = "FlagQuiz Activity";
     private static final int FLAGS_IN_QUIZ = 10;
 

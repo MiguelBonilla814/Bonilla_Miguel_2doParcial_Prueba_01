@@ -1,4 +1,4 @@
-package com.aperez.apps.eventhandlers;
+package com.example.bonilla_miguel_2doparcial_prueba_01.MEBQ_eventhandlers;
 
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;

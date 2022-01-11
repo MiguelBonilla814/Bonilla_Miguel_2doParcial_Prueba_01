@@ -1,4 +1,4 @@
-package com.aperez.apps.eventhandlers;
+package com.example.bonilla_miguel_2doparcial_prueba_01.MEBQ_eventhandlers;
 
 import android.os.Handler;
 import android.util.Log;
@@ -7,9 +7,10 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 import com.aperez.apps.androidfunwithflags.MainActivityFragment;
-import com.aperez.apps.androidfunwithflags.R;
+import com.example.bonilla_miguel_2doparcial_prueba_01.MEBQ_androidfunwirhflags.R;
 import com.aperez.apps.androidfunwithflags.ResultsDialogFragment;
-import com.aperez.apps.lifecyclehelpers.QuizViewModel;
+import com.example.bonilla_miguel_2doparcial_prueba_01.MEBQ_lifecyclehelpers.*;
+
 
 public class GuessButtonListener implements OnClickListener {
     private MainActivityFragment mainActivityFragment;
